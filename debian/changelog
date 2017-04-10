@@ -1,0 +1,5 @@
+flask-socketio (2.8.6-1) unstable; urgency=medium
+
+  * Initial release (Closes: #859060)
+
+ -- Paulo Henrique de Lima Santana (phls) <phls@softwarelivre.org>  Mon, 10 Apr 2017 15:17:57 -0300
