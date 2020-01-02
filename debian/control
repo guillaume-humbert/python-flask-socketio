@@ -2,7 +2,7 @@ Source: flask-socketio
 Section: python
 Priority: optional
 Maintainer: Paulo Henrique de Lima Santana (phls) <phls@softwarelivre.org>
-Build-Depends: debhelper (>= 10),
+Build-Depends: debhelper-compat (= 12),
                dh-python,
                python-socketio,
                python3,
@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 10),
                python3-flask,
                python3-setuptools
 X-Python3-Version: >= 3.5
-Standards-Version: 4.0.0
+Standards-Version: 4.4.1
 Homepage: https://pypi.python.org/pypi/Flask-SocketIO
 
 Package: python3-flask-socketio

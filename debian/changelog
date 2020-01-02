@@ -1,6 +1,9 @@
 flask-socketio (4.2.1-1) unstable; urgency=medium
 
   * New upstream version 4.2.1.
+  * debian/control:
+      - Bumped Standards-Version to 4.4.1.
+      - New format to debhelper-compat and updated level to 12.
 
  -- Paulo Henrique de Lima Santana (phls) <phls@debian.org>  Thu, 02 Jan 2020 22:32:06 +0300
 
