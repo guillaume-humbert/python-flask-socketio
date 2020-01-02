@@ -4,7 +4,6 @@ Priority: optional
 Maintainer: Paulo Henrique de Lima Santana (phls) <phls@debian.org>
 Build-Depends: debhelper-compat (= 12),
                dh-python,
-               python-socketio,
                python3,
                python3-all,
                python3-flask,

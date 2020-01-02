@@ -5,7 +5,7 @@ flask-socketio (4.2.1-1) unstable; urgency=medium
       - Added Conflicts field to remove gevent-socketio software.
       - Added 'Rules-Requires-Root: no' in source stanza.
       - Added Vcs-* fields for repository in salsa.
-      - Build-Depends: removed python3-engineio and added
+      - Build-Depends: removed python3-engineio and python-socketio, and added
         python3-socketio. (Closes: #879631, #895967, 896360, #943059).
       - Bumped Standards-Version to 4.4.1.
       - Bumped X-Python3-Version to 3.7.
