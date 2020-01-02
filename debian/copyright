@@ -3,13 +3,27 @@ Upstream-Name: Flask-SocketIO
 Source: https://pypi.python.org/pypi/Flask-SocketIO
 Comment: Repository on GitHub: https://github.com/miguelgrinberg/Flask-SocketIO
 
-Files: *
-Copyright: 2014-2017 Miguel Grinberg <miguelgrinberg50@gmail.com>
+Files: Flask_SocketIO.egg-info/dependency_links.txt
+       Flask_SocketIO.egg-info/not-zip-safe
+       Flask_SocketIO.egg-info/PKG-INFO
+       Flask_SocketIO.egg-info/requires.txt
+       Flask_SocketIO.egg-info/SOURCES.txt
+       Flask_SocketIO.egg-info/top_level.txt
+       flask_socketio/__init__.py
+       flask_socketio/namespace.py
+       flask_socketio/test_client.py
+       MANIFEST.in
+       PKG-INFO
+       README.md
+       setup.cfg
+       setup.py
+Copyright: 2014-2019, Miguel Grinberg <miguelgrinberg50@gmail.com>
 License: MIT
-Comment: The last version was released in 2017.
+Comment:
+ Using license as found in LICENSE file.
 
 Files: debian/*
-Copyright: 2017 Paulo Henrique de Lima Santana (phls) <phls@softwarelivre.org>
+Copyright: 2017-2019, Paulo Henrique de Lima Santana (phls) <phls@debian.org>
 License: MIT
 
 License: MIT

@@ -11,6 +11,10 @@ flask-socketio (4.2.1-1) unstable; urgency=medium
       - Bumped X-Python3-Version to 3.7.
       - Changed Maintainer's email.
       - New format to debhelper-compat and updated level to 12.
+  * debian/copyright:
+      - Changed Maintainer's email.
+      - Listed all upstream files in copyright.
+      - Updated upstream code and packaging copyrights years.
 
  -- Paulo Henrique de Lima Santana (phls) <phls@debian.org>  Thu, 02 Jan 2020 22:32:06 +0300
 
