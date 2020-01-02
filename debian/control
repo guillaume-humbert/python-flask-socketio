@@ -7,9 +7,9 @@ Build-Depends: debhelper-compat (= 12),
                python-socketio,
                python3,
                python3-all,
-               python3-engineio,
                python3-flask,
-               python3-setuptools
+               python3-setuptools,
+               python3-socketio,
 X-Python3-Version: >= 3.7
 Standards-Version: 4.4.1
 Rules-Requires-Root: no
