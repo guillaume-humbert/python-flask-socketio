@@ -1,7 +1,7 @@
 Flask-SocketIO
 ==============
 
-[![Build Status](https://travis-ci.org/miguelgrinberg/Flask-SocketIO.png?branch=master)](https://travis-ci.org/miguelgrinberg/Flask-SocketIO)
+[![Build status](https://github.com/miguelgrinberg/flask-socketio/workflows/build/badge.svg)](https://github.com/miguelgrinberg/Flask-SocketIO/actions) [![codecov](https://codecov.io/gh/miguelgrinberg/flask-socketio/branch/master/graph/badge.svg)](https://codecov.io/gh/miguelgrinberg/flask-socketio)
 
 Socket.IO integration for Flask applications.
 
@@ -27,8 +27,8 @@ socketio = SocketIO(app)
 def index():
     return render_template('index.html')
 
-@socketio.on('my event')
-def test_message(message):
+@socketio.event
+def my_event(message):
     emit('my response', {'data': 'got it!'})
 
 if __name__ == '__main__':

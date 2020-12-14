@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: Flask-SocketIO
-Version: 4.2.1
+Version: 5.0.0
 Summary: Socket.IO integration for Flask applications
 Home-page: http://github.com/miguelgrinberg/Flask-SocketIO/
 Author: Miguel Grinberg
@@ -18,7 +18,6 @@ Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Classifier: Programming Language :: Python
-Classifier: Programming Language :: Python :: 2
 Classifier: Programming Language :: Python :: 3
 Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
 Classifier: Topic :: Software Development :: Libraries :: Python Modules
